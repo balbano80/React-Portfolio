@@ -24,10 +24,10 @@ class Projects extends Component {
                         <Button colored style={{margin: 'auto'}}>
                             <a href ="https://github.com/balbano80/cert-tracker" rel="noopener noreferrer" target="_blank">Github</a>
                         </Button>
+                        <Button colored style={{margin: 'auto'}}>
+                            <a href ="https://www.youtube.com/watch?v=wwB2xWbvTh8&index=13&list=UUae_pZ4J6Ea9M2L92ZFjzHA" rel="noopener noreferrer" target="_blank">Youtube Presentation</a>
+                        </Button>
                     </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
-                        <IconButton name="share" />
-                    </CardMenu>
                 </Card>
             )
         }
@@ -41,16 +41,13 @@ class Projects extends Component {
                     and provide a methood for family members to vote on any and all suggestions. 
                     </CardText>
                     <CardActions border style={{display: 'flex', justifyContent: 'space-between', margin: 'auto'}}>
-                        <Button colored style={{paddingLeft: '100px'}}>
+                        <Button colored style={{margin: 'auto'}}>
                             <a href ="https://github.com/Laethaka/Ohana" rel="noopener noreferrer" target="_blank">Github</a>
                         </Button>
-                        <Button colored style={{paddingRight: '100px'}}>
+                        <Button colored style={{margin: 'auto'}}>
                             <a href ="https://ohana-families.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a>
                         </Button>
                     </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
-                        <IconButton name="share" />
-                    </CardMenu>
                 </Card>
             )
         }
@@ -65,16 +62,13 @@ class Projects extends Component {
                     will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
                     </CardText>
                     <CardActions border style={{display: 'flex', justifyContent: 'space-between', margin: 'auto'}}>
-                        <Button colored style={{paddingLeft: '100px'}}>
+                        <Button colored style={{margin: 'auto'}}>
                             <a href ="https://github.com/balbano80/mha-clicky-game" rel="noopener noreferrer" target="_blank">Github</a>
                         </Button>
-                        <Button colored style={{paddingRight: '100px'}}>
+                        <Button colored style={{margin: 'auto'}}>
                             <a href ="https://balbano80.github.io/mha-clicky-game/" rel="noopener noreferrer" target="_blank">Live Demo</a>
                         </Button>
                     </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
-                        <IconButton name="share" />
-                    </CardMenu>
                 </Card>
             )
         }
