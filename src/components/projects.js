@@ -57,7 +57,7 @@ class Projects extends Component {
         else if (this.state.activeTab === 2) {
             return (
                 <Card shadow={3} style={{width: '55%', margin: 'auto', text: 'center'}}>
-                    <CardTitle style={{ color: '#fff', height: '350px', background: 'url(http://via.placeholder.com/350x150) top / cover' }}>Project 3</CardTitle>
+                    <CardTitle style={{ color: '#fff', height: '350px', background: 'url(https://i.imgflip.com/2fevs0.jpg) top / cover' }}></CardTitle>
                     <CardText style={{textAlign: 'center'}}>
                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 
                     Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like 
@@ -66,10 +66,10 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border style={{display: 'flex', justifyContent: 'space-between', margin: 'auto'}}>
                         <Button colored style={{paddingLeft: '100px'}}>
-                            <a href ="https://github.com/Laethaka/Ohana" rel="noopener noreferrer" target="_blank">Github</a>
+                            <a href ="https://github.com/balbano80/mha-clicky-game" rel="noopener noreferrer" target="_blank">Github</a>
                         </Button>
                         <Button colored style={{paddingRight: '100px'}}>
-                            <a href ="https://ohana-families.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a>
+                            <a href ="https://balbano80.github.io/mha-clicky-game/" rel="noopener noreferrer" target="_blank">Live Demo</a>
                         </Button>
                     </CardActions>
                     <CardMenu style={{ color: '#fff' }}>
